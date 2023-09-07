@@ -180,8 +180,100 @@ img {
   right: 0;
 }
 /*=============== HOME ===============*/
+.home{
+  position: relative;
+  height: 100vh;
+}
+.home__container{
+  padding-top: 7rem;
+  display: grid;
+  row-gap: 3rem;
+}
 
+.home__content{
+  text-align: center;
+}
 
+.home__subtitle{
+  font-size: var(--small-font-size);
+  margin-bottom: .5rem;
+  letter-spacing: 1px;
+}
+
+.home__title{
+  position: relative;
+  width: max-content;
+  margin: 0 auto .75rem;
+  font-size: var(--biggest-font-size);
+  color: var(--title-color);
+}
+
+.home__title img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.home__title span{
+  position: relative;
+  z-index: 5;
+}
+
+.home__description{
+  line-height: 150%;
+  margin-bottom: 1.25rem;
+}
+.home__button{
+  display: inline-block;
+  background: linear-gradient(180deg ,
+  var(--second-color),var(--second-color-alt));
+  padding: 1.125rem 3rem;
+  border-radius: 4rem;
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  box-shadow: 0 8px 32px hsla(268 , 58% , 4% , .3);
+}
+
+.home__images{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 240px;
+}
+.home__images img{
+  position: absolute;
+}
+
+.home__points{
+  width: 320px;
+  top: -1rem;
+}
+.home__rocket{
+  width: 220px;
+}
+.home__planet-1{
+  width: 110px;
+  top: 1.25rem;
+  left: .75rem;
+  }
+  .home__planet-2{
+    width: 70px;
+    right: 0;
+    top: -1rem;
+  }
+  .home__cloud-1,
+  .home__cloud-2{
+    position: absolute;
+    bottom: 0;
+    max-width: initial;
+  }
+  .home__cloud-2{
+    width: 500px;
+    right: -4rem;
+  }
+  .home__cloud-1{
+    width: 700px;
+    right: -6rem;
+  }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
