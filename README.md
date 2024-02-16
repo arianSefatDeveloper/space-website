@@ -10,4 +10,4 @@
 💙 
 
 ![preview img](/preview.png)
-[Online]("https://ariansefatdeveloper.github.io/space-website/")
+[Online](https://ariansefatdeveloper.github.io/space-website/)
